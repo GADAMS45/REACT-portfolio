@@ -8,15 +8,30 @@ import Resume from './components/Resume'
 
 function App() {
 
+  // let currentPage = "About";
+  const [currentPage, setCurrentPage] = useState('About')
+
+  function renderCurrentPage () {
+    if(currentPage == "About") {
+      return <About />
+    }
+    if(currentPage == "Work") {
+      return <Work />
+    }
+    if(currentPage == "Contact") {
+      return <Contact />
+    }
+    if(currentPage == "Resume") {
+      return <Resume />
+    }
+
+  }
+
   return (
     <>
-      <Header />
+      <Header setCurrentPage={setCurrentPage}/>
       <main>
-          <About/>
-          <Work/>
-          <Contact />
-          <Resume />
-
+          {renderCurrentPage()}
       </main>
     </>
   )

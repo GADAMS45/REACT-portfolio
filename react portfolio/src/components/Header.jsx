@@ -1,16 +1,32 @@
 import React from "react";
 
-function Header () {
+function Header({setCurrentPage}) {
     return (
         <header>
-        <h1>Greg</h1>
-        <nav>
-          <a href="#about-me"><li>About Me</li></a>
-          <a href="#work"><li>Work</li></a>
-          <a href="#contact-me"><li>Contact Me</li></a>
-          <a href="#resume"><li>Resume</li></a>
-        </nav>
-      </header>
+            <h1>Greg</h1>
+            <nav>
+                <a href="#">
+                    <li onClick={() => {
+                        setCurrentPage("About")
+                    }}>About Me</li>
+                </a>
+                <a href="#">
+                    <li onClick={() => {
+                        setCurrentPage("Work")
+                    }}>Work</li>
+                </a>
+                <a href="#">
+                    <li onClick={() => {
+                        setCurrentPage("Contact")
+                    }}>Contact Me</li>
+                </a>
+                <a href="#">
+                    <li onClick={() => {
+                        setCurrentPage("Resume")
+                    }}>Resume</li>
+                </a>
+            </nav>
+        </header>
     )
 }
 
