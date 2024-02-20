@@ -24,7 +24,7 @@ main {
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   /* align-items: center; */
 }
 
@@ -76,7 +76,7 @@ section > div {
 }
 
 #project-1 {
-  background-image: url(https://placehold.co/600x400);
+  background-image: url(/workday.png);
 }
 
 #project-2 {
@@ -105,4 +105,21 @@ section > div {
 
 .contact-content a {
   font-size: 30px;
+}
+
+#main-container {
+  min-height: 85vh;
+}
+
+
+#footer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+#footer li {
+  list-style-type: none;
+  margin: 20px;
+  font-size: 40px;
 }

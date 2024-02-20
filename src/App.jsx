@@ -5,6 +5,7 @@ import About from './components/About'
 import Work from './components/Work'
 import Contact from './components/Contact'
 import Resume from './components/Resume'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -30,9 +31,10 @@ function App() {
   return (
     <>
       <Header setCurrentPage={setCurrentPage}/>
-      <main>
+      <main id="main-container">
           {renderCurrentPage()}
       </main>
+      <Footer />
     </>
   )
 }
