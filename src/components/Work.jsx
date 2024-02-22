@@ -5,32 +5,32 @@ function Work() {
     const projects = [
         {
             title: "workday",
-            description: "HTML/CSS",
+            description: "Click Here",
             link: "https://gadams45.github.io/workdayscheduler/",
             id: "project-1"
         },
         {
-            title: "project2",
-            description: "HTML/CSS",
-            link: "https://gadams45.github.io/workdayscheduler/",
+            title: "Coding Quiz",
+            description: "Click Here",
+            link: "https://gadams45.github.io/Coding-Quiz//",
             id: "project-2"
         },
         {
-            title: "project3",
-            description: "HTML/CSS",
-            link: "https://gadams45.github.io/workdayscheduler/",
+            title: "Note Taker",
+            description: "Click Here",
+            link: "https://github.com/GADAMS45/Note-Taker",
             id: "project-3"
         },
         {
-            title: "project4",
-            description: "HTML/CSS",
-            link: "https://gadams45.github.io/workdayscheduler/",
+            title: "Employee Tracker",
+            description: "Click Here",
+            link: "https://github.com/GADAMS45/Employee-tracker",
             id: "project-4"
         },
         {
-            title: "project5",
-            description: "HTML/CSS",
-            link: "https://gadams45.github.io/workdayscheduler/",
+            title: "Weather Dashboard",
+            description: "Click Here",
+            link: "https://gadams45.github.io/WeatherDashboard/",
             id: "project-5"
         }
     ]
