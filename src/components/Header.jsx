@@ -3,7 +3,7 @@ import React from "react";
 function Header({setCurrentPage}) {
     return (
         <header>
-            <h1>Greg</h1>
+            <h1>Greg Adams' Portfolio</h1>
             <nav>
                 <a href="#">
                     <li onClick={() => {
